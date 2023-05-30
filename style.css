@@ -1,0 +1,225 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+/* .about-body{
+    font-family: 'Courier New', Courier, monospace;
+} */
+ul{
+	list-style: none;
+}
+
+.header {
+    font-size: 15px;
+    color:wheat;
+    display: flex;
+    background: rgb(93 101 108 );
+    align-items: center;
+}
+.logo{
+    float: left;
+    width: 6%;
+    height: 50px;
+}
+nav {
+    width: 75%;
+}
+nav ul{
+    display: flex;
+    float: left;
+    padding: 12px 75px;
+}
+nav ul li a{
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0 20px;
+}
+nav ul li a:hover{
+    background: #dddddd;
+    color: black;
+    border-radius: 7px;
+}
+nav ul li a:active {
+    background-color: #2196F3;
+    color: white;
+  }
+  .searchbox input[type="text"] {
+    padding: 3px;
+}   
+ .searchbox {
+    float: left;
+    border: none;
+    font-size: 17px;
+    cursor: text;
+    padding: 0px 2px 1px 0px;
+  }
+ .searchbtn {
+    /* float: right; */
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 1px 2 px;
+    border-radius: 7px;
+  }
+  
+ .searchbtn:hover {
+    
+    background-color: #544949;
+  }
+
+  table {
+    margin: auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+.custom-col-6{
+    width: 50%;
+    padding: 5px;
+    font-size: 16px;
+    text-align: justify;
+}
+.custom-col-6 h3{
+    color: #145889;
+    text-align: center;
+    padding: 15px;
+    font-size: 28px;
+}
+.custom-col-6 p{
+    padding: 0px 25px;
+    text-align: justify;
+    color: #757575;
+}
+.custom-col-6 img{
+    padding: 4px 120px
+}
+.foot-row {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    background-size: cover;
+    background-color:black;
+}
+.foot-col{
+    padding: 10px;
+    color: #bbbbbb;
+}
+.foot-form{
+    padding:10px 0px 20px 0px;
+}
+.foot-input{
+    border-radius: 10px;
+    height: 28px;
+    width: 140px;
+    padding: 5px;
+}
+.foot-input::placeholder{
+    padding-left: 5px;
+}
+.foot-col h2{
+    padding: 79px 0px 27px 0px;
+    color: antiquewhite;
+    text-decoration: underline;
+}
+.foot-col ul li{
+    padding: 10px 0px;
+}
+.foot-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.foot-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.copyright{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    background-color: black;
+    color: #bbbbbb;
+    text-align: left;
+    padding: 27px 265px;
+}
+
+.articlebtn {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.articlebtn:hover,
+.articlebtn:focus {
+  background-color: #F082AC;
+}
+.submitbtn {
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 7px;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submitbtn:hover {
+  background-color: rgb(249,250,251);
+}
+
+.submitbtn:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.submitbtn:focus-visible {
+  box-shadow: none;
+}

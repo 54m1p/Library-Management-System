@@ -1,0 +1,141 @@
+:root{
+    /* background-color: black; */
+    /* background-image: url("https://cdn.pixabay.com/photo/2020/07/23/01/29/books-5430104_1280.jpg"); */
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/06/22/01/books-2596809_1280.jpg") ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.register-container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.register-container h1 {
+    text-align: center;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.formelement {
+    padding: 10px 0px;
+}
+.col3.formelement {
+    text-align: left;
+    padding-right: 38px;
+}
+sports.col3.formelement {
+    padding-right: 82px;
+}
+.submit.col3.formelement {
+    /* padding: 27px 97px; */
+    display: flex;
+    margin-top: 50px;
+}
+.email.col1.formelement {
+    padding-left: 19px;
+}
+.address.col1.formelement {
+    padding-right: 50px;
+}
+/* .password.col2.formelement {
+    padding-left: 120px;
+} */
+.sports.col3.formelement {
+    padding-right: 45px;
+}
+.col1, .col2, .col3{
+    max-width: 33%;
+}
+.submitbtn {
+    background-color: #646976;
+    border: 1px solid transparent;
+    border-radius: 19px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 12px;
+    /* text-align: center; */
+    margin: 2px;
+}
+
+.submitbtn:hover {
+  background-color: #343639;
+}   
+
+.submitbtn:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .submitbtn {
+    padding: 10px 16px;
+  }
+}
+
+.submitbtn a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.submitbtn a:hover{
+    color: black;
+}
+
+.inp{
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    color: gray;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    caret-color: #343639;
+}
+input#login-pswd {
+    margin-left: 11px;
+}
+
+.form_label {
+    transition: 0.2s;
+    color: gray;
+}
+
+.headingText{
+    color: gray;
+    padding-top: 44px;
+    text-align: center;
+}
+
+.bi{
+    color: gray;
+}
+
+.login-box{
+    text-align: center;
+    margin: auto;
+    max-width: 27%;
+    background: yellow;
+    border-radius: 2pc;
+}
+.loginDetails {
+    padding: 50px       ;
+    text-align: center;
+}
+.loginInput{
+    padding: 10px;
+}
+.login-btndiv{
+    padding-bottom: 65px;
+}
+.register-box{
+    background: yellow;
+    border-radius: 2pc;
+    max-width: 90%;
+    margin: auto;
+
+ 
+}

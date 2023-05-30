@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+</head>
+<body onload="booksOnLoad()">
+    <header>
+        <div class="header">
+            <div class="logo"><img src="https://png.pngtree.com/png-clipart/20201208/original/pngtree-red-and-black-logo-png-image_5517319.jpg" height="50" width="85" alt="" /></div>      
+            <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="books.html">Books</a></li>
+                        <li><a href="blogs.html">Blogs</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                    </ul>    
+            </nav>
+            <div class="search-container">
+                <form action="" method="get">
+                   <div class="searchbox"><input type="text" placeholder="Enter keywords to search.." ></div>
+                    <button type="submit" class="searchbtn">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="booksHeading"><h1>Book List</h1></div>
+        <div class="search-books">
+            <form method="get">
+                <input type="text" class= "input-search" placeholder="Enter bookname to search.." name="key" >
+                <button class="searchbtn search-book" id="search-book" >Search</button>
+            </form>
+        </div>
+        <div>
+            <table class = "booklist" id="booklist">
+                <tr>
+                    <th>Book</th>
+                    <th>Category</th>
+                    <th>Author</th>
+                </tr>
+            </table>
+        </div>
+        <div class="add-div">
+            <button class="add-book" id="add-book">Add Book</button>
+            
+        </div>
+    </div>
+    
+        <!-- <footer class="site-footer">
+            <div class="foot-container">
+                <div class="foot-row">
+                    <div class="foot-col">
+                        <h2>Contact Us</h2>
+                        <ul>
+                            <li>P.O. Box : 13289 KTM, Nepal</li>
+                            <li>Lalitpur, Nepal</li>
+                            <li>98989898</li>
+                            <li>admin@admin.com.np</li>
+                        </ul>
+                         <div class="foot-form">   
+                            <form action="" method="post">
+                                <input type="text" name="name" id="name" placeholder="Your Name" class="foot-input">
+                                <input type="email" name="email" id="email" placeholder="Enter your email" class="foot-input">
+                                <input type="submit" name="submit" id="submit" class="articlebtn">
+                            </form>
+                        </div>
+                    </div>    
+                    <div class="foot-col">
+                        <h2>Links</h2>
+                        <ul>
+                            <li><a href="#">News/Events</a></li> 
+                            <li><a href="#">Notice</a></li>
+                            <li><a href="#">Books</a></li> 
+                            <li><a href="#">Donate</a></li>
+                        </ul>
+                    </div> 
+                    <div class="foot-col">
+                        <h2>Media</h2>
+                        <ul>
+                            <li><a href="#">Photos</a></li>
+                            <li><a href="#">Videos</a></li>
+                            <li><a href="#">Virtual Tour</a></li>
+                        </ul>
+                    </div>
+            </div>
+            </div>
+            <div class="copyright">
+                <strong> Copyright© 2019 - 2023</strong>
+            </div>
+        </footer> -->
+    <script src="script.js"></script>
+</body>
+</html>
