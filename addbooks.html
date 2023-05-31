@@ -30,69 +30,71 @@
         </div>
     </header>
     <div class="addBook main">
-        <div>
-            <form action="#"  id="register-form">
-                <div class="first row">
-                    <div class="name col1 formelement">
-                        <div class="name element-label">
-                            <label for="book-name" class="form_label">Book Name:*</label><br>
+        <div class="addbook-container">
+            <div class="addbook-box">
+                <form action="#"  id="register-form">
+                    <div class="first row">
+                        <div class="name col1 formelement">
+                            <div class="name element-label">
+                                <label for="book-name" class="form_label">Book Name:*</label><br>
+                            </div>
+                            <input type="text" name="book-name" class="inp" id="book-name" value="" placeholder="Book Name" required>
                         </div>
-                        <input type="text" name="book-name" class="inp" id="book-name" value="" placeholder="Book Name" required>
-                    </div>
-                    <div class="author col2 formelement">        
-                        <div class="author element-label">
-                            <label for="author" class="form_label">Author</label>
-                        </div>
-                        <input type="text" name="author" class="inp" id="author" placeholder="Written by" value="">    
-                    </div>
-                </div>
-                <div class="second row">
-                    <div class="year col1 formelement">    
-                        <div class="year element-label">
-                            <label for="written-year" class="form_label">Written year</label><br>
-                            <input type="tel" name="yyyy" class="inp" id="yyyy" placeholder="yyyy" maxlength="4"  size="2">
+                        <div class="author col2 formelement">        
+                            <div class="author element-label">
+                                <label for="author" class="form_label">Author</label>
+                            </div>
+                            <input type="text" name="author" class="inp" id="author" placeholder="Written by" value="">    
                         </div>
                     </div>
-                    <div class="edition col2 formelement">
-                        <div class="edition element-label">
-                            <label for="edition" class="form_label">Edition:</label>
+                    <div class="second row">
+                        <div class="year col1 formelement">    
+                            <div class="year element-label">
+                                <label for="written-year" class="form_label">Written year</label><br>
+                                <input type="tel" name="yyyy" class="inp" id="yyyy" placeholder="yyyy" maxlength="4"  size="2">
+                            </div>
                         </div>
-                        <input type="text" name="edition" class="inp" id="edition" placeholder="Edition">
-                    </div>
-                </div>
-                <div class="third row">
-                    <div class="category col1 formelement">
-                        <div class="category element-label">
-                            <label for="category" class="form_label">Book Category:</label>
+                        <div class="edition col2 formelement">
+                            <div class="edition element-label">
+                                <label for="edition" class="form_label">Edition:</label>
+                            </div>
+                            <input type="text" name="edition" class="inp" id="edition" placeholder="Edition">
                         </div>
-                        <div>
-                            <select name="category" id="category">
-                                <option value="" disabled selected hidden>Choose a category</option>
-                                <option value="Fiction">Fiction</option>
-                                <option value="Non-fiction">Non-fiction</option>
-                                <option value="Mystery">Mystery</option>
-                                <option value="Science Fiction">Science Fiction</option>
-                                <option value="Fantasy">Fantasy</option>
-                                <option value="Biography">Biography</option>
-                                <option value="History">History</option>
-                                <option value="Self-Help">Self-Help</option>
-                                <option value="Thriller">Thriller</option>
-                                <option value="Horror">Horror</option>
-                                <option value="Poetry">Poetry</option>
-                            </select>
-                        </div>    
                     </div>
-                    <div class="bookid col2 formelement">
-                        <div class="bookid element-label">
-                            <label for="bookid" class="form_label">Book ID:*</label>
+                    <div class="third row">
+                        <div class="category col1 formelement">
+                            <div class="category element-label">
+                                <label for="category" class="form_label">Book Category:</label>
+                            </div>
+                            <div>
+                                <select name="category" id="category">
+                                    <option value="" disabled selected hidden>Choose a category</option>
+                                    <option value="Fiction">Fiction</option>
+                                    <option value="Non-fiction">Non-fiction</option>
+                                    <option value="Mystery">Mystery</option>
+                                    <option value="Science Fiction">Science Fiction</option>
+                                    <option value="Fantasy">Fantasy</option>
+                                    <option value="Biography">Biography</option>
+                                    <option value="History">History</option>
+                                    <option value="Self-Help">Self-Help</option>
+                                    <option value="Thriller">Thriller</option>
+                                    <option value="Horror">Horror</option>
+                                    <option value="Poetry">Poetry</option>
+                                </select>
+                            </div>    
                         </div>
-                        <input type="text" name="book-id" class="inp" id="book-id" placeholder="Book ID" required>
+                        <div class="bookid col2 formelement">
+                            <div class="bookid element-label">
+                                <label for="bookid" class="form_label">Book ID:*</label>
+                            </div>
+                            <input type="text" name="book-id" class="inp" id="book-id" placeholder="Book ID" required>
+                        </div>
+                    </div>    
+                    <div class="regbookbtn col2 formelement"> 
+                        <button name="book-submit" class="submitbtn" id="book-submit" >Add book</button> 
                     </div>
-                </div>    
-                <div class="submit col2 formelement"> 
-                    <button name="book-submit" class="submitbtn" id="book-submit" >Add book</button> 
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
     

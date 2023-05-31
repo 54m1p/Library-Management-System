@@ -120,6 +120,8 @@ input#login-pswd {
     max-width: 27%;
     background: yellow;
     border-radius: 2pc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 .loginDetails {
     padding: 50px       ;
@@ -136,6 +138,16 @@ input#login-pswd {
     border-radius: 2pc;
     max-width: 90%;
     margin: auto;
+}
+.addbook-container{
+max-width: 80%;
+margin: 10pc auto;
+background-color: antiquewhite;
+border-radius: 10px;
+}
+.addbook-box{
+    padding: 20px;
+}
+.regbookbtn .{
 
- 
 }

@@ -1,0 +1,40 @@
+:root{
+    background-color: #95DBE5FF;
+     background-image: url("https://cdn.pixabay.com/photo/2016/03/27/19/32/book-1283865_1280.jpg");
+     /* color : grey; */
+     color: #fff;
+ }
+.search-add{
+    display: flex;
+    justify-content: space-around;
+    padding: 2pc;
+}
+.booksHeading h1{
+    text-align: center;
+    padding: 3pc;
+}
+
+.main-container{
+    background-color: rgb(11, 154, 152);
+    max-width: 80%;
+    margin: 5rem auto;
+    border-radius: 2pc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.booklist-tbl{
+    /* background-color: #339E66FF; */
+    border-radius: 10px;
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+.booklist-div{
+    padding-bottom: 2pc;
+}
+ .booklist-tbl td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    border-radius: 2px;
+  }

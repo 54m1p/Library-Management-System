@@ -7,7 +7,8 @@
     <title>Index</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="booksStyle.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body onload="booksOnLoad()">
     <header>
@@ -29,26 +30,27 @@
             </div>
         </div>
     </header>
-    <div class="main">
+    <div class="main-container">
         <div class="booksHeading"><h1>Book List</h1></div>
-        <div class="search-books">
-            <form method="get">
-                <input type="text" class= "input-search" placeholder="Enter bookname to search.." name="key" >
-                <button class="searchbtn search-book" id="search-book" >Search</button>
-            </form>
+        <div class="search-add">
+            <div class="search-books">
+                <form method="get" id= "searchForm">
+                    <input type="text" class= "input-search" id="book-search" placeholder="Enter bookname to search.." name="key" >
+                    <button  type = "submit" class="searchbtn search-book" id="search-book" >Search</button>
+                </form>
+            </div>
+            <div class="add-div">
+                <i class="fa fa-plus" id="add-book" aria-hidden="true"></i>
+            </div>
         </div>
-        <div>
-            <table class = "booklist" id="booklist">
+        <div class ="booklist-div">
+            <table class = "booklist-tbl " id="booklist">
                 <tr>
                     <th>Book</th>
                     <th>Category</th>
                     <th>Author</th>
                 </tr>
             </table>
-        </div>
-        <div class="add-div">
-            <button class="add-book" id="add-book">Add Book</button>
-            
         </div>
     </div>
     
