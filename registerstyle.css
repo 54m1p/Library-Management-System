@@ -55,7 +55,7 @@ sports.col3.formelement {
     cursor: pointer;
     font-weight: 600;
     line-height: 12px;
-    /* text-align: center; */
+    text-align: center;
     margin: 2px;
 }
 
@@ -140,7 +140,7 @@ input#login-pswd {
     margin: auto;
 }
 .addbook-container{
-max-width: 80%;
+max-width: 70%;
 margin: 10pc auto;
 background-color: antiquewhite;
 border-radius: 10px;
@@ -148,6 +148,14 @@ border-radius: 10px;
 .addbook-box{
     padding: 20px;
 }
-.regbookbtn .{
-
+.addbook-box h1{
+    text-align: center;
+    color: gray;
+}
+.regbookbtn.col2.formelement{
+    text-align: right;
+    padding-left: 226px;
+}
+.logout-btn{
+    text-align: center;
 }

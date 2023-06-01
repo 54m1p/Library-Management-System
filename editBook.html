@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="registerstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body>
+<body onload="onEditLoad()">
     <header>
         <div class="header">
             <div class="logo"><img src="https://png.pngtree.com/png-clipart/20201208/original/pngtree-red-and-black-logo-png-image_5517319.jpg" height="50" width="85" alt="" /></div>      
@@ -32,34 +32,34 @@
     <div class="addBook main">
         <div class="addbook-container">
             <div class="addbook-box">
-                <h1>Add book to the list</h1>
-                <form action="#"  id="book-register-form">
+                <h1>Edit book details</h1>
+                <form action="#"  id="edit-register-form">
                     <div class="first row">
                         <div class="name col1 formelement">
                             <div class="name element-label">
                                 <label for="book-name" class="form_label">Book Name:*</label><br>
                             </div>
-                            <input type="text" name="book-name" class="inp" id="book-name" value="" placeholder="Book Name" required>
+                            <input type="text" name="book-name" class="inp" id="edit-book-name"  placeholder="Book Name" required>
                         </div>
                         <div class="author col2 formelement">        
                             <div class="author element-label">
                                 <label for="author" class="form_label">Author</label>
                             </div>
-                            <input type="text" name="author" class="inp" id="author" placeholder="Written by" value="">    
+                            <input type="text" name="author" class="inp" id="edit-author" placeholder="Written by" value="">    
                         </div>
                     </div>
                     <div class="second row">
                         <div class="year col1 formelement">    
                             <div class="year element-label">
                                 <label for="written-year" class="form_label">Written year</label><br>
-                                <input type="tel" name="yyyy" class="inp" id="yyyy" placeholder="yyyy" maxlength="4"  size="2">
+                                <input type="tel" name="yyyy" class="inp" id="edit-yyyy" placeholder="yyyy" maxlength="4"  size="2">
                             </div>
                         </div>
                         <div class="edition col2 formelement">
                             <div class="edition element-label">
                                 <label for="edition" class="form_label">Edition:</label>
                             </div>
-                            <input type="text" name="edition" class="inp" id="edition" placeholder="Edition">
+                            <input type="text" name="edition" class="inp" id="edit-edition" placeholder="Edition">
                         </div>
                     </div>
                     <div class="third row">
@@ -68,7 +68,7 @@
                                 <label for="category" class="form_label">Book Category:</label>
                             </div>
                             <div>
-                                <select name="category" id="category" class="inp">
+                                <select name="category" id="edit-category" class="inp">
                                     <option value="" disabled selected hidden>Choose a category</option>
                                     <option value="Fiction">Fiction</option>
                                     <option value="Non-fiction">Non-fiction</option>
@@ -88,11 +88,11 @@
                             <div class="bookid element-label">
                                 <label for="bookid" class="form_label">Book ID:*</label>
                             </div>
-                            <input type="text" name="book-id" class="inp" id="book-id" placeholder="Book ID" required>
+                            <input type="text" name="book-id" class="inp" id="edit-book-id" placeholder="Book ID" required>
                         </div>
                     </div>    
                     <div class="regbookbtn col2 formelement"> 
-                        <button type="submit" class="submitbtn" id="book-submit" >Add book</button> 
+                        <button type="submit" class="edit submitbtn" id="edit-book-submit" >Update book</button> 
                     </div>
                 </form>
             </div>
@@ -112,7 +112,7 @@
                         </ul>
                          <div class="foot-form">   
                             <form action="" method="post">
-                                <input type="text" name="name" id="name" placeholder="Your Name" class="foot-input">
+                                <input type="text" name="name" id="edit-name" placeholder="Your Name" class="foot-input">
                                 <input type="email" name="email" id="email" placeholder="Enter your email" class="foot-input">
                                 <input type="submit" name="submit" id="submit" class="articlebtn">
                             </form>
@@ -141,6 +141,6 @@
                 <strong> Copyright© 2019 - 2023</strong>
             </div>
         </footer> -->
-    <script src="script.js"></script>
+    <script src="editscript.js"></script>
 </body>
 </html>

@@ -1,0 +1,37 @@
+:root{
+    background-color: antiquewhite;
+}
+.add-blog.modal{
+    display: none;
+    /* position: fixed; */
+    /* width: 90%; */
+    height: 90vh;
+    max-width: 80%;
+    text-align: center;
+    overflow: auto;
+    margin: 0 auto;
+    /* background-color: #14325436; */
+}
+.modal-container {
+    background-color: #f6f0ff7a;
+}
+.modal-heading-close{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.modal-heading{
+    text-align: right;
+    width:60%
+}
+.closeModal{
+    text-align: right;
+    width: 40%;
+    padding-right: 10px;
+}
+.modal-textarea{
+    font-size: 1rem;
+}
+.blog-fill{
+    padding: 10px;
+}

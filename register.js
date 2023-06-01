@@ -11,8 +11,6 @@ registerform.addEventListener("submit", (e) =>{
     //registerform.submit();
 });
 
-// document.getElementById("form-submit").onclick = validatefn();
-
 function validatefn(){
     dateCheckResponse = datecheck();
     emailCheckResponse = emailCheck();

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blogStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body onload="siteOnload()">
@@ -28,6 +29,50 @@
             </div>
         </div>
     </header>
-    <script src="script.js"></script>
+    <div class="search-add blog">
+        <div class="search-blogs">
+            <form method="get" id= "searchBlogForm">
+                <input type="text" class= "input-blog-search" id="blog-search" placeholder="Enter blog title to search.." name="blogKey" >
+                <button  type = "submit" class="searchbtn search-blog" id="search-blog" >Search</button>
+            </form>
+        </div>
+        <div class="add-div">
+            <i class="fa fa-plus" id="add-blog-btn" aria-hidden="true" onclick="addBlogsModal()">Add Blogs</i>
+        </div>
+    </div>
+    <section class="blogs-list">   
+        <div class="blog-box" id="blog-box">
+            <!-- blogs apppend here -->
+        </div>
+    </section>
+
+    <!-- modal form here -->
+    <div class="add-blog modal" id="add-blog-modal">
+        <div class="modal-container">
+            <div class="modal-heading-close"> 
+                <h1 class="modal-heading">Add your blog</h1>
+                <span class="closeModal" id="closeModal"><i class="fa fa-window-close" aria-hidden="true"></i></span>
+            </div>    
+            <div class="blog-fill">
+                <form action="#" id="blog-fill-form">
+                    <div class="title blog-div">
+                        <label for="blog-title">Title of your blog</label><br>
+                        <textarea name="blog-title" class="modal-textarea" id="blog-title" cols="120" placeholder="Blog Title Here"></textarea>
+    
+                    </div>
+                    <div class="content blog-div">
+                        <label for="blog-content">Contents of your blog</label><br>
+                        <textarea name="blog-content" class="modal-textarea" id="blog-content" cols="120" rows="20" placeholder="Blog contents Here"></textarea>
+                    </div>
+                    <div><textarea name="blog-img" class="modal-textarea" id="blog-title" cols="120" placeholder="Image URL Here"></textarea></div>
+
+                    <div class="blog-btn">
+                        <button type="submit" class="submitbtn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>  
+    </div>
+    <script src="blogScript.js"></script>
 </body>
 </html>
