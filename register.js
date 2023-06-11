@@ -103,10 +103,10 @@ let submitForm = () =>{
     console.log(dob,'dob');
     console.log(gender,'gender');
     regDetails.push({
-    name: name,
-    email: email,
-    password: password,
-    dob: dob
+        name: name,
+        email: email,
+        password: password,
+        dob: dob
 
 })
     console.log(regDetails,'regdetails');

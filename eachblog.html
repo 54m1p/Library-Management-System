@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blogStyle.css">
+</head>
+<body onload="fetchEachBlog(), otherBlogsLoad()">
+    <header>
+        <div class="header">
+            <div class="logo"><img src="https://png.pngtree.com/png-clipart/20201208/original/pngtree-red-and-black-logo-png-image_5517319.jpg" height="50" width="85" alt="" /></div>      
+            <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="books.html">Books</a></li>
+                        <li><a href="blogs.html">Blogs</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                    </ul>    
+            </nav>
+            <div class="search-container">
+                <form action="">
+                   <div class="searchbox"><input type="text" placeholder="Enter keywords to search.." ></div>
+                    <button type="submit" class="searchbtn">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <section class="eachblog-window">
+        <div class="blog-area" id="blog-area">
+            <div id="title-blog" class="each-block-part"><h2 id="heading-blog"></h2></div>
+            <div id="blog-pic-div">
+                <img src="" id="blog-pic" alt="">
+            </div>
+            <div id="blog-item">
+                <div id="body-blog" class="each-block-part"></div>
+                <div id="blog-reactions" class="each-block-part"></div>
+                <div id="blog-tags" class="each-block-part">Tags:</div>
+            </div>
+        </div>
+    </section>
+    <div class="other-section">
+        <h2>Other Blogs</h2>    
+        <div class="other-blog-div" id="other-blogs-div"></div>
+    </div>
+    <script src="blogScript.js"></script>
+</body>
+</html>

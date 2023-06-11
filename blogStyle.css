@@ -1,37 +1,122 @@
 :root{
-    background-color: antiquewhite;
+    background-color: rgb(252, 241, 241);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-.add-blog.modal{
-    display: none;
-    /* position: fixed; */
-    /* width: 90%; */
-    height: 90vh;
-    max-width: 80%;
+.blog-div{
+    height: 550px;
+    max-width : 50%;
+    display: inline-block;
+    /* padding: 10px;
+    margin: 10px; */
     text-align: center;
-    overflow: auto;
-    margin: 0 auto;
-    /* background-color: #14325436; */
 }
-.modal-container {
-    background-color: #f6f0ff7a;
+.blog-div:nth-child(even){
+    float: right;
 }
-.modal-heading-close{
-    display: flex;
-    align-items: center;
-    padding: 20px;
+.blog-div:nth-child(odd){
+    float: left;
 }
-.modal-heading{
-    text-align: right;
-    width:60%
+.blog-img{
+    max-width: 100%;
 }
-.closeModal{
-    text-align: right;
-    width: 40%;
-    padding-right: 10px;
-}
-.modal-textarea{
-    font-size: 1rem;
-}
-.blog-fill{
+.blog-content{
+    font-size: 14px;
     padding: 10px;
+}
+.blog-content h2{
+    padding: 5px;
+    color: #006989;
+}
+.blog-content div{
+    color: #666666;
+}
+.img-text-div{
+    margin: 0 auto;
+    max-width: 50%;
+    border: 1px solid #d8d8d8;
+}
+.blog-div {
+    max-height: 452px;
+    max-width: 46%;
+    /* display: inline-block; */
+    /* text-align: center; */
+    overflow: hidden;
+    margin-top: 10px;
+    padding: 10px;
+}
+.blog-box{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog-content span{
+    float: left;
+}
+
+/* Each blog css */
+.blog-area {
+    padding: 50px;
+    margin-top: 10px;
+    border: 1px solid #d8d8d8;
+    box-shadow: 3px 0px 15px 0px;
+    
+}
+.eachblog-window{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+#blog-pic-div{
+
+    /* max-width: 80%; */
+    text-align: center;
+}
+#blog-pic {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+h2#heading-blog {
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 31px;
+    font-style: bold;
+}
+.each-block-part{
+    padding:10px 0px;
+}
+
+/* other blog section  */
+.other-section{
+    padding-top: 20px;
+}
+
+.other-blog-div{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.other-blog-each{
+   border: 1px solid #d8d8d8;
+   padding:20px;
+   margin: 10px;
+   max-width: 16%;
+   text-align: center;
+}
+
+.other-img{
+    height :100px;
+    aspect-ratio: 3/2;
+    text-align: center;
+}
+
+.other-section{
+    padding: 50px 2px;
+}
+.other-section h2{
+    padding-left: 20px;
 }

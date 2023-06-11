@@ -34,7 +34,7 @@ var booksOnLoad = () =>{
    let tr = document.createElement('tr');
    let td = document.createElement('td');
    let auth, bname, bcat;
-    bookArr.map((item,index)=>{
+    searchArr.map((item,index)=>{
         let bookTable =  document.querySelector("#booklist");
         let tr = document.createElement('tr');
         let td = document.createElement('td');
